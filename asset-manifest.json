@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MemGenerator/static/css/main.649a5b01.css",
+    "main.js": "/MemGenerator/static/js/main.9434ad49.js",
+    "index.html": "/MemGenerator/index.html",
+    "main.649a5b01.css.map": "/MemGenerator/static/css/main.649a5b01.css.map",
+    "main.9434ad49.js.map": "/MemGenerator/static/js/main.9434ad49.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.649a5b01.css",
+    "static/js/main.9434ad49.js"
+  ]
+}
