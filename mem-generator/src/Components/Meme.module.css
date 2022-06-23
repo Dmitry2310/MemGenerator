@@ -28,3 +28,91 @@ main {
     color: #FFFFFF;
     cursor: pointer;
 }
+.meme {
+    position: relative;
+    margin-top: 20px;
+}
+.memeImage {
+    max-width: 100%;
+    border-radius: 3px;
+}
+.memeTextTop {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    top: 0;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.memeTextBottom {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    top: 200px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+@media only screen and (max-device-width: 480px) {
+    .form {
+        display: grid;
+        grid-template: 40px  / 1fr ;
+        gap: 17px;
+    }
+    .formButton {
+        grid-column: 1 / -1;
+        width: 100%;
+    }
+    .formInput {
+        margin: 0 auto;
+        width: 200px;
+        height: 35px;
+        border: 1px solid #D5D4D8;
+        border-radius: 5px;
+        box-sizing: border-box;
+        text-indent: 5px;
+    }
+    .memeTextTop {
+        font-size: 1.5em;
+    }
+    .memeTextBottom {
+        font-family: impact, sans-serif;
+        font-size: 1.5em;
+        top: 120px;
+    }
+}
+    
