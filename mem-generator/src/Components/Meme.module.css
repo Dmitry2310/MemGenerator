@@ -74,7 +74,7 @@ main {
     text-transform: uppercase;
     color: white;
     letter-spacing: 1px;
-    bottom: 50px;
+    bottom: 25px;
     text-shadow:
         2px 2px 0 #000,
         -2px -2px 0 #000,
@@ -112,7 +112,6 @@ main {
     .memeTextBottom {
         font-family: impact, sans-serif;
         font-size: 1.5em;
-        top: 120px;
     }
 }
     

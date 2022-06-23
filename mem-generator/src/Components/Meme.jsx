@@ -21,7 +21,6 @@ export const Meme = () => {
     }, [])
 
     const [allMemes, setAllMemes] = useState(memesData.data.memes);
-    console.log(allMemes)
 
     const getMemeImage = () => {
         const randomNumber = Math.floor(Math.random() * allMemes.length)
