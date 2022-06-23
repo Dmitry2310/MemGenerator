@@ -1,24 +1,27 @@
 import React, { useEffect, useState } from 'react';
 import style from './Meme.module.css';
+import memesData from './memesData';
 
 export const Meme = () => {
 
     const [meme, setMeme] = useState({
         topText: '',
         bottomText: '',
-        randomImage: 'https://i.imgflip.com/1bij.jpg'
+        randomImage: "http://i.imgflip.com/1bij.jpg"
     });
 
     useEffect(() => {
-        async function getMemes() {
-            const res = await fetch('https://api.impflip.com/get_memes', { mode: 'no-cors' });
+        // i have an isseu with server request
+       /*  async function getMemes() {
+            const res = await fetch("https://api.imgflip.com/get_memes", { mode: 'no-cors' });
             const data = await res.json();
             setAllMemes(data.data.memes);
         }
-        getMemes();
+        getMemes(); */
     }, [])
 
-    const [allMemes, setAllMemes] = useState([]);
+    const [allMemes, setAllMemes] = useState(memesData.data.memes);
+    console.log(allMemes)
 
     const getMemeImage = () => {
         const randomNumber = Math.floor(Math.random() * allMemes.length)
