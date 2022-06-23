@@ -6,12 +6,12 @@ export const Meme = () => {
     const [meme, setMeme] = useState({
         topText: '',
         bottomText: '',
-        randomImage: 'http://i.imgflip.com/1bij.jpg'
+        randomImage: 'https://i.imgflip.com/1bij.jpg'
     });
 
     useEffect(() => {
         async function getMemes() {
-            const res = await fetch('http://api.impflip.com/get_memes', { mode: 'no-cors' });
+            const res = await fetch('https://api.impflip.com/get_memes', { mode: 'no-cors' });
             const data = await res.json();
             setAllMemes(data.data.memes);
         }
