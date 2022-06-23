@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/MemGenerator/static/css/main.26afa808.css",
-    "main.js": "/MemGenerator/static/js/main.3c54ab05.js",
+    "main.css": "/MemGenerator/static/css/main.f80f437c.css",
+    "main.js": "/MemGenerator/static/js/main.3bcfc6ce.js",
     "index.html": "/MemGenerator/index.html",
-    "main.26afa808.css.map": "/MemGenerator/static/css/main.26afa808.css.map",
-    "main.3c54ab05.js.map": "/MemGenerator/static/js/main.3c54ab05.js.map"
+    "main.f80f437c.css.map": "/MemGenerator/static/css/main.f80f437c.css.map",
+    "main.3bcfc6ce.js.map": "/MemGenerator/static/js/main.3bcfc6ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.26afa808.css",
-    "static/js/main.3c54ab05.js"
+    "static/css/main.f80f437c.css",
+    "static/js/main.3bcfc6ce.js"
   ]
 }
